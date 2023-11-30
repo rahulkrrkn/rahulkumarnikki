@@ -1,65 +1,37 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    
+* {
+  margin: 0px;
+  padding: 0px;
 }
-body{
-    width: 100%;
-    height: 100%;
-    color: aliceblue;
+body {
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
 }
-#name{
-    margin-left: 50px;
+#name {
+  margin-left: 50px;
+  padding: 10px;
 }
-.main{
-    background-color: gradient(linear, left top,);
-    background-image: linear-gradient(0deg, rgb(220, 13, 13) 0px, rgb(209, 166, 166) 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    animation-duration: 12s;
-    animation-name: bg_animation;
-    animation-iteration-count: infinite;
-    /* hue-rotate(90deg) */
-    height: 1000px;
-    width: 100%;
-    
-    
-}
-.main{
-    animation-name: bg_animation;
-    
+.main {
+  background-color: gradient(linear, left top);
+  background-image: linear-gradient(
+    0deg,
+    rgb(220, 13, 13) 0px,
+    rgb(209, 166, 166) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  animation-duration: 12s;
+  animation-name: bg_animation;
+  animation-iteration-count: infinite;
+  height: 1000px;
+  width: 100%;
 }
 @keyframes bg_animation {
-    to{
-        filter: hue-rotate(360deg);
-    }
-}
-/* .body {
-  background:
-    linear-gradient(233deg, #e56420, #c22525, #3d9c31, #37bbde);
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-blend-mode: hard-light;
-  animation: hue-rotate 3s linear infinite;
-}
-
-@keyframes hue-rotate {
-  from {
-    -webkit-filter: hue-rotate(0);
-    -moz-filter: hue-rotate(0);
-    -ms-filter: hue-rotate(0);
-    filter: hue-rotate(0);
-  }
   to {
-    -webkit-filter: hue-rotate(360deg);
-    -moz-filter: hue-rotate(360deg);
-    -ms-filter: hue-rotate(360deg);
     filter: hue-rotate(360deg);
   }
-} */
-
+}
 
 #profile {
   height: 300px;
@@ -68,10 +40,8 @@ body{
   border-radius: 50%;
   padding: 5px;
 }
-#profile_div {
+.fex_centre {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-
